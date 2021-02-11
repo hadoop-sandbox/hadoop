@@ -185,7 +185,7 @@ RUN apt-get -q update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
     && ln -s /usr/bin/nodejs /usr/bin/node \
-    && npm install npm@latest -g \
+    && npm install npm@latest-6 -g \
     && npm install -g jshint
 
 ###
